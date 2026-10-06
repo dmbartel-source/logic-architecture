@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "payload": {
+    "label": "Logic Architecture v1.8",
+    "sha256": "207903ace9eecb2755562f01bd61c77946b7185cdd021a4b1c7ec8feb1854d46",
+    "version": "1.8.0",
+    "date": "2026-10-05",
+    "gates": {
+      "bank": "runtime 50/50 on v8",
+      "transfer": "12/12 (v1.6: 7.5/12, v1.7: 5/12)"
+    }
+  },
+  "metadata": {},
+  "evidenceId": "d9000080-0c0f-4a5d-bb3f-6dccc7c9edc6",
+  "nonce": "TjgLvbu2HpLF5_0pGzdh9I_pRNUbYU6ZwxcRk6y6iLU",
+  "keyId": "ed25519-dd586615808812d356533093ca187821ff352a31c9c72c6847fafaba18dc130d",
+  "issuedAt": "2026-10-05T21:27:58.480Z",
+  "signature": "tfCvA_6Ffd2rQLeU4n8KRboym4kXBZwylX-oqWuMctnsUYmuHiUx4Z66ukUutyESSFOgMfglZ2Md30Tuvh8ODg"
+}
