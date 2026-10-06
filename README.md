@@ -4,8 +4,8 @@ A continuously-tested reasoning discipline for AI systems: formal logic, algorit
 
 ## What's here
 
-- **`spec/`** — The Logic Architecture v1.8 specification (sealed). Covers strategy selection, structured argument, grounded verification with tooling, calibrated uncertainty labels, counterfactual checks, adversarial review, and 18 failure modes with mechanical gates.
-- **`releases/`** — Signed release envelope for v1.8 (SHA-256 + Ed25519).
+- **`spec/`** — The Logic Architecture specifications (sealed). v1.9 is current: §5 reorganized into 6 causal failure-mode families, with new modes 18 (non-canonical optimum selection), 19 (output-time deception), and 20 (hollow convergence) — 20 failure modes total. v1.8 retained for reference.
+- **`releases/`** — Signed release envelopes (SHA-256 + Ed25519) for v1.8 and v1.9.
 - **`runtime/`** — The reasoning runtime: an executable pipeline (`pipeline.mjs`) that runs deterministic solvers through independent trace recording, multi-checker verification gates, reconciliation, and sealed evidence output.
   - `solvers/` — Deterministic task solvers (selection, routing, scheduling, packing, counterfactual, arithmetic, critique, strategy classification).
   - `checkers/` — Independent verification checkers (elision detection, bound checks, tie-break validation, trace oracle, span checks, execution verification).
@@ -20,6 +20,6 @@ A continuously-tested reasoning discipline for AI systems: formal logic, algorit
 
 ## Status
 
-v1.8 is sealed and accepted. The runtime passes its standing test suite continuously. This is research code — shared for the ideas, not as a production library.
+v1.9 is sealed and accepted (v1.8 retained for reference). The runtime passes its standing test suite continuously. This is research code — shared for the ideas, not as a production library.
 
 No API keys, credentials, or personal data are in this repo.
