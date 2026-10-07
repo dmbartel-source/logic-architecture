@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "payload": {
+    "date": "2026-10-07",
+    "gates": {
+      "bank": "v10 50/50 zero regression; v11 deterministic 20/20",
+      "pipeline": "syntax OK",
+      "suite": "11/12 (t06 standing calibration drift only, no regression)",
+      "transfer": "PASS on both new mechanisms (Mode 21, PCC audit log)"
+    },
+    "label": "Logic Architecture v1.10",
+    "sha256": "b61a5178c31ce31f84f3cc0ca7858be547d5e41437ecc3144170cb463e35f78f",
+    "version": "1.10.0"
+  },
+  "metadata": {},
+  "evidenceId": "e10ab3a4-4e87-4463-8756-414e241da247",
+  "nonce": "hQYZHmRuPkEVks5_eJRxhK7-N3dxJnCLVy9V1LVd160",
+  "keyId": "ed25519-dd586615808812d356533093ca187821ff352a31c9c72c6847fafaba18dc130d",
+  "issuedAt": "2026-10-07T19:40:02.200Z",
+  "signature": "6MwCOqQ4JWCyqKhMndVSNZvSsE9lssQmefwPzD_ZZCKQD5DRXQK4tObBgnADvfJ5KFl522IojTpzojJN8_DiBQ"
+}
